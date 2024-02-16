@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace FirstEverMod
 {
-    public class Nomodfirst
+    [BepInPlugin(modGUID, modName, modVersion)]
+    public class Nomodfirst : BaseUnityPlugin
     {
-
+        private const string modGUID = "Vickyelotes.FirstEverMod";
     }
 }
